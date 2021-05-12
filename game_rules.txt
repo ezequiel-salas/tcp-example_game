@@ -1,0 +1,11 @@
+The game board consists of any number of piles with any number of
+sticks, these numbers are set when the server is started.
+
+Point of the game is to remove "sticks" from
+a pile, each player taking any number of "sticks" from one pile.
+The player loses if it's they're turn and only one stick is left in the whole game.
+
+The player can remove specific sticks in a pile to create a new pile.
+Ex: current state : 3, 4, 5.    (3 piles)
+    player1 removes the 2 middle sticks from pile 2.
+    new state:      3, 1, 1, 5. (5 piles)
